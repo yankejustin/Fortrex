@@ -14,7 +14,7 @@ namespace prjFortrex.Server
         private static List<EntityConnection> EntityConnections;
         private const int Port = 4321;
 
-        private static readonly object locker = new object();+
+        private static readonly object locker = new object();
 
         static void Main(string[] args)
         {
@@ -68,17 +68,18 @@ namespace prjFortrex.Server
             }
             catch (Exception ex)
             {
-                throw new ApplicationException("An unexpected error has occurred when trying to start the server: ", ex);
+                ex.Log("An unexpected error has occurred when trying to start the server.");
             }
 
             try
             {
                 ServerSocket.BeginAccept(new AsyncCallback(AcceptCallback), ServerSocket);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                throw new ApplicationException("Error occured starting listeners, check inner exception", e);
+                ex.Log("Error occured starting listeners, check inner exception");
             }
+
             return true;
         }
 
