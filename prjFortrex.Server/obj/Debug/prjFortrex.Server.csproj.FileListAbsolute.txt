@@ -17,3 +17,4 @@ E:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
