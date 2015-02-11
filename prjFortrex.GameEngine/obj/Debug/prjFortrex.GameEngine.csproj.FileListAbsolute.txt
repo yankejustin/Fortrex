@@ -8,3 +8,5 @@ F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\bin\Debug\prjFortrex.GameEngine.pdb
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.dll
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\bin\Debug\prjFortrex.GameEngine.dll.CodeAnalysisLog.xml
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\bin\Debug\prjFortrex.GameEngine.dll.lastcodeanalysissucceeded

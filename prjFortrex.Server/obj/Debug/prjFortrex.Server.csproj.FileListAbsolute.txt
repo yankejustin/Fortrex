@@ -25,3 +25,5 @@ F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.csprojResolveAssemblyReference.cache
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.CodeAnalysisLog.xml
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.lastcodeanalysissucceeded

@@ -10,8 +10,9 @@ C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.ex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.config
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.pdb
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.csprojResolveAssemblyReference.cache
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.Properties.Resources.resources
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.csproj.GenerateResource.Cache
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.exe
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.CodeAnalysisLog.xml
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.lastcodeanalysissucceeded
