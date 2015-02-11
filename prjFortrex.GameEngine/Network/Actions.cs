@@ -3,8 +3,9 @@
     public enum Action : int
     {
         None = 0,
-        MessageSend = 1,
-        Kick = 2,
-        Ban = 3
+        Move = 1,
+        MessageSend = 2,
+        Kick = 3,
+        Ban = 4
     }
 }
