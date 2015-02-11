@@ -1,0 +1,19 @@
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.CodeAnalysisLog.xml
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.lastcodeanalysissucceeded
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.exe
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csprojResolveAssemblyReference.cache
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmGameWindow.resources
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmTitleScreen.resources
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache

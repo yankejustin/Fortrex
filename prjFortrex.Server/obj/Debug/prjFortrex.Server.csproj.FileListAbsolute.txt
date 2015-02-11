@@ -1,0 +1,19 @@
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.GameEngine.dll
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.GameEngine.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.CodeAnalysisLog.xml
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.lastcodeanalysissucceeded
+G:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
+G:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
+G:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb
+E:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
+E:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
+E:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\bin\Debug\prjFortrex.Server.exe.config
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.exe
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\prjFortrex.Server\obj\Debug\prjFortrex.Server.pdb

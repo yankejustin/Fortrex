@@ -1,0 +1,9 @@
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.config
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.Properties.Resources.resources
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.csproj.GenerateResource.Cache
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.exe
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.pdb
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.CodeAnalysisLog.xml
+C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.lastcodeanalysissucceeded
