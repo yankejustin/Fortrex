@@ -85,7 +85,7 @@ namespace prjFortrex.Server
 
         private static void AcceptCallback(IAsyncResult result)
         {
-            EntityConnection connection = new EntityConnection();
+            PlayerConnection connection = new PlayerConnection();
             bool EntityError = false;
             try
             {

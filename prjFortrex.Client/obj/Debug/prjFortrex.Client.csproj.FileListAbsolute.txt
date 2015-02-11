@@ -27,3 +27,5 @@ F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmTitleScreen.resources
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.dll
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.pdb

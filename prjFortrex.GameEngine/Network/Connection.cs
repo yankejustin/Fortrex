@@ -15,11 +15,7 @@ namespace prjFortrex.GameEngine.Network
         Action Command { get; set; }
         byte[] Buffer { get; set; }
         Socket ConnectionSocket { get; set; }
-
-        void MovePlayer(Point position, Direction direction);
     }
-
-
 
     public abstract class EntityConnection : EntityBase, IEntityConnection
     {
@@ -51,10 +47,7 @@ namespace prjFortrex.GameEngine.Network
 
         #endregion
 
-        public Point CurrentPosition { get; private set; }
-
-        public EntityConnection()
-            : base()
+        public EntityConnection() : base()
         { }
     }
 
@@ -63,9 +56,9 @@ namespace prjFortrex.GameEngine.Network
         public PlayerConnection() : base()
         { }
 
-        public override void MovePlayer(Point CurrentPosition, Direction PlayerDirection)
+        public override void MoveEntity(Direction EntityDirection, int amount)
         {
-            base.MoveEntity(PlayerDirection);
+            base.MoveEntity(EntityDirection, amount);
 
             // Send a command to the server that states that we have moved.
         }

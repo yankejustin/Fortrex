@@ -4,3 +4,8 @@ C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.dl
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.pdb
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.dll.CodeAnalysisLog.xml
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.dll.lastcodeanalysissucceeded
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.dll
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.csprojResolveAssemblyReference.cache
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.dll
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.pdb

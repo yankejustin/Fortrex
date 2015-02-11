@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using prjFortrex.GameEngine;
+using prjFortrex.GameEngine.GamePlay.Entities;
 using prjFortrex.GameEngine.Network;
+using prjFortrex.GameEngine.GamePlay.Movement;
 
 namespace prjFortrex.Client
 {
     public partial class frmGameWindow : Form
     {
-        private Rectangle player = new Rectangle(0, 0, 20, 20);
+        PlayerConnection player = new PlayerConnection();
 
         public frmGameWindow()
         {
@@ -23,12 +25,36 @@ namespace prjFortrex.Client
             this.BackColor = Color.LightGray;
 
             this.VisibleChanged += frmGameWindow_VisibleChanged;
+            this.KeyDown += frmGameWindow_KeyDown;
             this.Paint += frmGameWindow_Paint;
         }
 
         void frmGameWindow_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawRectangle(Pens.Brown, player);
+            e.Graphics.DrawRectangle(Pens.Brown, player.EntitySize);
+        }
+
+        void frmGameWindow_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Up:
+                    player.MoveEntity(Direction.Up);
+                    break;
+                case Keys.Down:
+                    player.MoveEntity(Direction.Down);
+                    break;
+                case Keys.Left:
+                    player.MoveEntity(Direction.Left);
+                    break;
+                case Keys.Right:
+                    player.MoveEntity(Direction.Right);
+                    break;
+                default:
+                    return;
+            }
+
+            this.RaisePaintEvent("OnPaint", new PaintEventArgs(this.CreateGraphics(), this.ClientRectangle));
         }
 
         private void frmGameWindow_VisibleChanged(object sender, EventArgs e)

@@ -10,23 +10,23 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 {
     public interface IMobileEntity
     {
-        Point CurrentPosition { get; private set; }
-        Rectangle EntitySize { get; private set; }
+        Point CurrentPosition { get; set; }
 
-        virtual void MoveEntity(Direction EntityDirection);
-        virtual void MoveEntity(Direction EntityDirection, int speed);
+        void MoveEntity(Direction EntityDirection);
+        void MoveEntity(Direction EntityDirection, int speed);
     }
 
     public abstract class EntityBase : IMobileEntity
     {
         #region IMobileEntity Implementation
 
-        public Point CurrentPosition { get; private set; }
-        public Rectangle EntitySize { get; private set; }
+        public Point CurrentPosition { get; set; }
+
+        public Rectangle EntitySize;
 
         public virtual void MoveEntity(Direction EntityDirection)
         {
-            MoveEntity(EntityDirection, 1);
+            MoveEntity(EntityDirection, 20);
         }
 
         public virtual void MoveEntity(Direction EntityDirection, int amount)
@@ -36,10 +36,10 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
             switch (EntityDirection)
             {
                 case Direction.Up:
-                    NextPosition = new Point(CurrentPosition.X, CurrentPosition.Y + amount);
+                    NextPosition = new Point(CurrentPosition.X, CurrentPosition.Y - amount);
                     break;
                 case Direction.Down:
-                    NextPosition = new Point(CurrentPosition.X, CurrentPosition.Y - amount);
+                    NextPosition = new Point(CurrentPosition.X, CurrentPosition.Y + amount);
                     break;
                 case Direction.Left:
                     NextPosition = new Point(CurrentPosition.X - amount, CurrentPosition.Y);
@@ -50,6 +50,10 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
                 default:
                     return;
             }
+
+            CurrentPosition = NextPosition;
+            EntitySize.X = CurrentPosition.X;
+            EntitySize.Y = CurrentPosition.Y;
 
             // The command to move is sent to the server by the class inheriting this base entity class.
         }
