@@ -16,13 +16,15 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
         void MoveEntity(Direction EntityDirection, int speed);
     }
 
-    public abstract class EntityBase : IMobileEntity
+    public abstract class EntityBase : IMobileEntity, IDisposable
     {
         #region IMobileEntity Implementation
 
         public Point CurrentPosition { get; set; }
 
         public Rectangle EntitySize;
+
+        
 
         public virtual void MoveEntity(Direction EntityDirection)
         {
@@ -60,16 +62,39 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 
         #endregion
 
+        #region IDisposable Implementation
+
+        public void Dispose()
+        {
+            Dispose(true);
+
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                EntityPicture.Dispose();
+            }
+        }
+
+        #endregion
+
+        public Image EntityPicture { get; set; }
+
         #region Constructors
 
         public EntityBase()
         {
             EntitySize = new Rectangle(0, 0, 50, 50);
+            EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
         }
 
         public EntityBase(Rectangle size)
         {
             EntitySize = size;
+            EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
         }
 
         #endregion

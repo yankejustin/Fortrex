@@ -23,6 +23,7 @@ namespace prjFortrex.Client
             InitializeComponent();
 
             this.BackColor = Color.LightGray;
+            this.DoubleBuffered = true;
 
             this.VisibleChanged += frmGameWindow_VisibleChanged;
             this.KeyDown += frmGameWindow_KeyDown;
@@ -31,7 +32,11 @@ namespace prjFortrex.Client
 
         void frmGameWindow_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawRectangle(Pens.Brown, player.EntitySize);
+            // Update visuals.
+
+            e.Graphics.DrawImage(player.EntityPicture, player.EntitySize);
+
+            this.Invalidate();
         }
 
         void frmGameWindow_KeyDown(object sender, KeyEventArgs e)

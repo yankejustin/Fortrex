@@ -21,15 +21,10 @@ namespace prjFortrex.GameEngine.Network
     {
         #region IDisposable Implementation
 
-        public void Dispose()
+        protected override void Dispose(bool disposing)
         {
-            Dispose(true);
+            base.Dispose(disposing);
 
-            GC.SuppressFinalize(this);
-        }
-
-        protected virtual void Dispose(bool disposing)
-        {
             if (disposing)
             {
                 ConnectionSocket.Close();
