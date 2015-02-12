@@ -122,7 +122,7 @@ namespace prjFortrex.Server
 
         private static void ReceiveCallback(IAsyncResult result)
         {
-            EntityConnection connection = (EntityConnection)result.AsyncState;
+            PlayerConnection connection = (PlayerConnection)result.AsyncState;
             bool EntityError = false;
 
             try
@@ -157,7 +157,7 @@ namespace prjFortrex.Server
             }
         }
 
-        private static void DisconnectUser(EntityConnection connection)
+        private static void DisconnectUser(PlayerConnection connection)
         {
             lock (locker)
             {

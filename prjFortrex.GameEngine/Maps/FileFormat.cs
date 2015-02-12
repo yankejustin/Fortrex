@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prjFortrex.GameEngine.Maps
 {
-
+    // To be used to specify the way maps are formatted.
 
     public class FileFormat
     {

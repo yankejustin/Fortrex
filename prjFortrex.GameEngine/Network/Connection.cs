@@ -1,26 +1,58 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net.Sockets;
-using System.Drawing;
 using prjFortrex.GameEngine.GamePlay.Movement;
 using prjFortrex.GameEngine.GamePlay.Entities;
 
 namespace prjFortrex.GameEngine.Network
 {
-    public interface IEntityConnection : IDisposable
+    /// <summary>
+    /// Defines an EntityBase's base connection class.
+    /// </summary>
+    public interface IEntityConnection
     {
+        /// <summary>
+        /// The action, or command, the entity intends to use.
+        /// </summary>
         Action Command { get; set; }
+        /// <summary>
+        /// The buffer that stores the information that is sent or received from interaction with the server.
+        /// </summary>
         byte[] Buffer { get; set; }
-        Socket ConnectionSocket { get; set; }
+        
     }
 
+    /// <summary>
+    /// Represents an EntityConnection that implements the base definition of an Entity.
+    /// </summary>
     public abstract class EntityConnection : EntityBase, IEntityConnection
+    {
+        #region IEntityConnection Implementation
+
+        /// <summary>
+        /// The action, or command, the entity intends to use.
+        /// </summary>
+        public Action Command { get; set; }
+        /// <summary>
+        /// The buffer that stores the information that is sent or received from interaction with the server.
+        /// </summary>
+        public byte[] Buffer { get; set; }
+
+        #endregion
+
+        #region Constructors
+
+        public EntityConnection() : base()
+        { }
+
+        #endregion
+    }
+
+    public class PlayerConnection : EntityConnection
     {
         #region IDisposable Implementation
 
+        // Override EntityBase's definition of Dispose to Dispose base class objects, but also the Socket object
+        //   that is defined in this class.
         protected override void Dispose(bool disposing)
         {
             base.Dispose(disposing);
@@ -34,28 +66,33 @@ namespace prjFortrex.GameEngine.Network
 
         #endregion
 
-        #region IEntityConnection Implementation
+        #region Constructors
 
-        public Action Command { get; set; }
-        public byte[] Buffer { get; set; }
-        public Socket ConnectionSocket { get; set; }
-
-        #endregion
-
-        public EntityConnection() : base()
-        { }
-    }
-
-    public class PlayerConnection : EntityConnection
-    {
         public PlayerConnection() : base()
         { }
 
+        #endregion
+
+        #region Overrides
+
+        // Moves the entity, then tells the server the entity has moved.
+        /* WITH FUTURE IMPLEMENTATION OF THE SERVER (IMPORTANT): Tell the server we wish to move this player entity, then use the server's response! */
         public override void MoveEntity(Direction EntityDirection, int amount)
         {
             base.MoveEntity(EntityDirection, amount);
 
             // Send a command to the server that states that we have moved.
         }
+
+        #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// The socket that the entity uses to connect to the server.
+        /// </summary>
+        public Socket ConnectionSocket { get; set; }
+
+        #endregion
     }
 }

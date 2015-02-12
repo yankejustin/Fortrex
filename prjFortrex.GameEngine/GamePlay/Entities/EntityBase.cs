@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using prjFortrex.GameEngine.GamePlay.Movement;
 
@@ -24,7 +20,7 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 
         public Rectangle EntitySize;
 
-        
+
 
         public virtual void MoveEntity(Direction EntityDirection)
         {
@@ -81,8 +77,6 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 
         #endregion
 
-        public Image EntityPicture { get; set; }
-
         #region Constructors
 
         public EntityBase()
@@ -96,6 +90,12 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
             EntitySize = size;
             EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
         }
+
+        #endregion
+
+        #region Properties
+
+        public Image EntityPicture { get; set; }
 
         #endregion
     }

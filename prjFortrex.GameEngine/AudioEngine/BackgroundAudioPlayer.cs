@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace prjFortrex.GameEngine.AudioEngine
 {
-    interface IBackgroundAudioPlayer
-    {
-
-    }
-
-    public class BackgroundAudioPlayer : IBackgroundAudioPlayer
+    /// <summary>
+    /// Controls the sound for theme music and for music tracks (in-game).
+    /// </summary>
+    public class BackgroundAudioPlayer
     {
     }
 }

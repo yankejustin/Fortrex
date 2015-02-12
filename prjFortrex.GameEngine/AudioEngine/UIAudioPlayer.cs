@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace prjFortrex.GameEngine.AudioEngine
 {
+    /// <summary>
+    /// Controls the sound of the user interface.
+    /// </summary>
     class UIAudioPlayer
     {
     }
