@@ -9,3 +9,8 @@ F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.csprojResolveAssemblyReference.cache
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.dll
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.pdb
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.GameEngine\bin\Debug\prjFortrex.GameEngine.dll
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.GameEngine\bin\Debug\prjFortrex.GameEngine.pdb
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.dll
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.GameEngine\obj\Debug\prjFortrex.GameEngine.pdb

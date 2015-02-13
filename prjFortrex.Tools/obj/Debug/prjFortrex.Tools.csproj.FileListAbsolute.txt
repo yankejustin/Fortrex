@@ -7,3 +7,11 @@ C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.ex
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.pdb
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.CodeAnalysisLog.xml
 C:\Users\Steve\Desktop\slnFortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.lastcodeanalysissucceeded
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe.config
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.exe
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\bin\Debug\prjFortrex.Tools.pdb
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.Properties.Resources.resources
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.csproj.GenerateResource.Cache
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.exe
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tools\obj\Debug\prjFortrex.Tools.pdb
