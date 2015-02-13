@@ -22,11 +22,6 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
         #endregion
 
 
-        private void OnPickup(ref EntityBase entity)
-        {
-            entity.CurrencyCount += Value;
-            Dispose();
-        }
         
 
     }
