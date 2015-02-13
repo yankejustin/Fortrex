@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using prjFortrex.GameEngine.GamePlay.Movement;
 
@@ -79,16 +80,18 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 
         #region Constructors
 
-        public EntityBase()
+        protected EntityBase()
         {
             EntitySize = new Rectangle(0, 0, 50, 50);
             EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
         }
 
-        public EntityBase(Rectangle size)
+        protected EntityBase(Rectangle size)
         {
             EntitySize = size;
             EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
+
+
         }
 
         #endregion
@@ -96,6 +99,15 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
         #region Properties
 
         public Image EntityPicture { get; set; }
+
+
+        public int CurrencyCount { get; set; }
+        
+
+        public List<ItemBase> inventoryList = new List<ItemBase>();
+
+        
+
 
         #endregion
     }

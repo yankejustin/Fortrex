@@ -42,3 +42,15 @@ F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.exe
 F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.pdb
 C:\Users\Andrew\Dropbox\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmGameWindow.resources
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmTitleScreen.resources
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.pdb
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.dll
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.pdb
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.exe
+C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.pdb

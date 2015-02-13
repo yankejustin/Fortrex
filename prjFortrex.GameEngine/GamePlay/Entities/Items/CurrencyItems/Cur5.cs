@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using System.Drawing;
 
 namespace prjFortrex.GameEngine.GamePlay.Entities.Items.CurrencyItems
@@ -10,11 +6,15 @@ namespace prjFortrex.GameEngine.GamePlay.Entities.Items.CurrencyItems
     class Cur5 : CurrencyBase
     {
 
-        //this'll be an object that'll act as a currency object, valued at five. 
-        int value = 5;
+        #region Constuctors
 
-        private Bitmap picture =
-            new Bitmap(@"..\bitmaps\Currency5.bmp");
+        public Cur5(int x, int y)
+            : base(
+                x, y, 5, "5 Gold",
+                Image.FromFile(@"..\..\Bitmaps\Currency5.bmp)"), Image.FromFile(@"..\..\Bitmaps\Currency5.bmp"))
+        {
+        }
 
+        #endregion
     }
 }
