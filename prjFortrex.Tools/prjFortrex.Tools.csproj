@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmEditor.cs">
+    <Compile Include="frmItemDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEditor.Designer.cs">
-      <DependentUpon>frmEditor.cs</DependentUpon>
+    <Compile Include="frmItemDirectory.Designer.cs">
+      <DependentUpon>frmItemDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemEditor.Designer.cs">
+      <DependentUpon>frmItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapEditor.Designer.cs">
+      <DependentUpon>frmMapEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -56,11 +68,11 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManager.cs">
+    <Compile Include="frmMapDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManager.Designer.cs">
-      <DependentUpon>frmManager.cs</DependentUpon>
+    <Compile Include="frmMapDirectory.Designer.cs">
+      <DependentUpon>frmMapDirectory.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

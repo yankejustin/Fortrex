@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using prjFortrex.GameEngine.GamePlay.Logic.Movement;
 
-namespace prjFortrex.GameEngine.GamePlay.Objects
+namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
 {
     public interface IMobileEntity
     {

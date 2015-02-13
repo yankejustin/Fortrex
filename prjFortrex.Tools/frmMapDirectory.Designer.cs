@@ -1,6 +1,6 @@
 ﻿namespace prjFortrex.Tools
 {
-    partial class frmManager
+    partial class frmMapDirectory
     {
         /// <summary>
         /// Required designer variable.

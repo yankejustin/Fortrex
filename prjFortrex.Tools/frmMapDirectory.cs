@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace prjFortrex.Tools
 {
-    public partial class frmManager : Form
+    public partial class frmMapDirectory : Form
     {
         // frmManager's job is to load existing maps from the path given and to attempt to parse desired map files.
 
@@ -20,7 +20,7 @@ namespace prjFortrex.Tools
         //   3) Draw the map and plot the paths that can be taken.
         //   4) Provide the ability to change the 
 
-        public frmManager()
+        public frmMapDirectory()
         {
             InitializeComponent();
         }

@@ -16,7 +16,7 @@ namespace prjFortrex.Tools
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEditor());
+            Application.Run(new frmMapEditor());
         }
     }
 }

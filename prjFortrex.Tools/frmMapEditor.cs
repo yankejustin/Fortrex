@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prjFortrex.Tools
 {
-    public partial class frmEditor : Form
+    public partial class frmMapEditor : Form
     {
-        public frmEditor()
+        public frmMapEditor()
         {
             InitializeComponent();
         }

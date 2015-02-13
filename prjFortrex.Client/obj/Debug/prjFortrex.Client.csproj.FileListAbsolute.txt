@@ -29,18 +29,6 @@ G:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex
 G:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmTitleScreen.resources
 G:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
 G:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.pdb
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.dll
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.GameEngine.pdb
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csprojResolveAssemblyReference.cache
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmGameWindow.resources
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.frmTitleScreen.resources
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.Properties.Resources.resources
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csproj.GenerateResource.Cache
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.exe
-F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.pdb
 C:\Users\Andrew\Dropbox\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
 C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\bin\Debug\prjFortrex.Client.exe.config
 C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Client\obj\Debug\prjFortrex.Client.csprojResolveAssemblyReference.cache
