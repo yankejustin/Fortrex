@@ -9,3 +9,8 @@ C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Test
 C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.dll
 C:\Users\Andrew\Dropbox\Game2\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.dll
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\bin\Debug\prjFortrex.Tests.pdb
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.csprojResolveAssemblyReference.cache
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.dll
+F:\Development\Programming\CSharp\Serious Projects\slnFortrex\Fortrex\prjFortrex.Tests\obj\Debug\prjFortrex.Tests.pdb

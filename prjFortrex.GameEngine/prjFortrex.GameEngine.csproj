@@ -42,12 +42,12 @@
   <ItemGroup>
     <Compile Include="AudioEngine\BackgroundAudioPlayer.cs" />
     <Compile Include="AudioEngine\UIAudioPlayer.cs" />
-    <Compile Include="GamePlay\Entities\CurrencyBase.cs" />
-    <Compile Include="GamePlay\Entities\EntityBase.cs" />
-    <Compile Include="GamePlay\Entities\IItemBase.cs" />
-    <Compile Include="GamePlay\Entities\Items\CurrencyItems\Cur1.cs" />
-    <Compile Include="GamePlay\Entities\Items\CurrencyItems\Cur5.cs" />
-    <Compile Include="GamePlay\Movement\Enums.cs" />
+    <Compile Include="GamePlay\Objects\Items\CurrencyItems\CurrencyBase.cs" />
+    <Compile Include="GamePlay\Objects\Entities\EntityBase.cs" />
+    <Compile Include="GamePlay\Objects\Items\IItemBase.cs" />
+    <Compile Include="GamePlay\Objects\Items\CurrencyItems\Cur1.cs" />
+    <Compile Include="GamePlay\Objects\Items\CurrencyItems\Cur5.cs" />
+    <Compile Include="GamePlay\Logic\Movement\Enums.cs" />
     <Compile Include="Maps\FileFormat.cs" />
     <Compile Include="Network\Actions.cs" />
     <Compile Include="Network\Connection.cs" />
@@ -56,13 +56,13 @@
   <ItemGroup>
     <Folder Include="AI\" />
     <Folder Include="AudioEngine\Assets\" />
-    <Folder Include="GamePlay\Entities\Blocks\" />
-    <Folder Include="GamePlay\Entities\Enemies\" />
+    <Folder Include="GamePlay\Objects\Blocks\" />
+    <Folder Include="GamePlay\Objects\Enemies\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GamePlay\Entities\Bitmaps\Currency1.bmp" />
-    <Content Include="GamePlay\Entities\Bitmaps\Currency5.bmp" />
-    <Content Include="GamePlay\Entities\Bitmaps\placeHolder.bmp" />
+    <Content Include="GamePlay\Objects\Bitmaps\Currency1.bmp" />
+    <Content Include="GamePlay\Objects\Bitmaps\Currency5.bmp" />
+    <Content Include="GamePlay\Objects\Bitmaps\placeHolder.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

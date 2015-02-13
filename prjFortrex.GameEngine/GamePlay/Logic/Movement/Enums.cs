@@ -1,4 +1,4 @@
-﻿namespace prjFortrex.GameEngine.GamePlay.Movement
+﻿namespace prjFortrex.GameEngine.GamePlay.Logic.Movement
 {
     public enum Direction : int
     {

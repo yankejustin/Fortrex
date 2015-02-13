@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using prjFortrex.GameEngine.GamePlay.Movement;
+using prjFortrex.GameEngine.GamePlay.Logic.Movement;
 
-namespace prjFortrex.GameEngine.GamePlay.Entities
+namespace prjFortrex.GameEngine.GamePlay.Objects
 {
     public interface IMobileEntity
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Net.Sockets;
-using prjFortrex.GameEngine.GamePlay.Movement;
+using prjFortrex.GameEngine.GamePlay.Logic;
 using prjFortrex.GameEngine.GamePlay.Entities;
 
 namespace prjFortrex.GameEngine.Network

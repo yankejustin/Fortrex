@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using prjFortrex.GameEngine;
 using prjFortrex.GameEngine.GamePlay.Entities;
 using prjFortrex.GameEngine.Network;
-using prjFortrex.GameEngine.GamePlay.Movement;
+using prjFortrex.GameEngine.GamePlay.Logic;
 
 namespace prjFortrex.Client
 {
