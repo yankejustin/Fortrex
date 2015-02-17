@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using prjFortrex.GameEngine;
-using prjFortrex.GameEngine.GamePlay.Entities;
 using prjFortrex.GameEngine.Network;
-using prjFortrex.GameEngine.GamePlay.Movement;
+using prjFortrex.GameEngine.GamePlay.Logic.Movement;
 
 namespace prjFortrex.Client
 {

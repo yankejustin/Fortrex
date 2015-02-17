@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using prjFortrex.GameEngine.GamePlay.Logic.Movement;
+using prjFortrex.GameEngine.GamePlay.Objects.Items;
 
 namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
 {
@@ -105,9 +106,6 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
         
 
         public List<ItemBase> inventoryList = new List<ItemBase>();
-
-        
-
 
         #endregion
     }

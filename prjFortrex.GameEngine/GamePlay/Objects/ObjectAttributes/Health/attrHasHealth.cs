@@ -35,7 +35,7 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.ObjectAttributes.Health
             GC.SuppressFinalize(this);
         }
 
-        public virtual void Dispose(bool disposing)
+        protected virtual void Dispose(bool disposing)
         {
             if (disposing)
             {

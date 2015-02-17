@@ -2,13 +2,13 @@
 using System.Drawing;
 using System.Collections.Generic;
 
-namespace prjFortrex.GameEngine.GamePlay.Entities
+namespace prjFortrex.GameEngine.GamePlay.Objects.Items
 {
     public interface IItemBase
     {
         int ID { get; set; }
         string Name { get; set; }
-        int Cost { get; set; }
+        int CombinationCost { get; set; }
 
         string Path { get; set; }
 
@@ -57,42 +57,30 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
             ID = 00000;
             Name = "Item";
 
-            //TODO: Adjust these values to be more accurate based on real entities;
+            // TODO: Adjust these values to be more accurate based on real entities;
             image = new Bitmap(50, 50);
             Icon = new Bitmap(10, 10);
+        }
 
+        protected ItemBase(string name)
+        {
+            this.Name = name;
 
-            //"this" for clarification
-            this.X = x;
-            this.Y = y;
+            // TODO: Adjust these values to be more accurate based on real entities;
+            image = new Bitmap(50, 50);
+            Icon = new Bitmap(10, 10);
         }
 
 
-        protected ItemBase(int x, int y, string name)
+        protected ItemBase(string name, Image _Icon, Image _image)
         {
-            id = 00000;
-            this.name = name;
-
-            //TODO: Adjust these values to be more accurate based on real entities;
-            image = new Bitmap(50, 50);
-            Icon = new Bitmap(10, 10);
-
-            //"this" for clarification
-            this.X = x;
-            this.Y = y;
-        }
-
-
-        protected ItemBase(int x, int y, string name, Image Icon, Image image)
-        {
-            //"this" for clarification
-
-            this.id = 00000;
-            this.name = name;
-            this.image = image;
-            this.Icon = Icon;
-            this.X = x;
-            this.Y = y;
+            // "this" for clarification.
+            this.Name = name;
+            
+            // TODO: Check to see if the "Icon" and "image" parameters should or should not be disposed after giving the values
+            // to the properties of this class...
+            this.image = _image;
+            this.Icon = _Icon;
         }
 
         #endregion
@@ -108,8 +96,6 @@ namespace prjFortrex.GameEngine.GamePlay.Entities
 
         #endregion
 
-        // Events to add:
-        // OnItemPickup
-        // 
+        // Events to come...
     }
 }
