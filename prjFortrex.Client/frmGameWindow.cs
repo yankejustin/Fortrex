@@ -25,10 +25,14 @@ namespace prjFortrex.Client
         void frmGameWindow_Paint(object sender, PaintEventArgs e)
         {
             // Update visuals.
+            SuspendLayout();
 
             e.Graphics.DrawImage(player.EntityPicture, player.EntitySize);
 
-            this.Invalidate();
+            ResumeLayout(true);
+
+            // Previously called "this.Invalidate();" here. Now called on the game window's KeyDown.
+            // Calling "this.Invalidate();" here would eat up 15-20% of the CPU.
         }
 
         void frmGameWindow_KeyDown(object sender, KeyEventArgs e)
@@ -51,7 +55,8 @@ namespace prjFortrex.Client
                     return;
             }
 
-            this.RaisePaintEvent("OnPaint", new PaintEventArgs(this.CreateGraphics(), this.ClientRectangle));
+            // Don't raise OnPaint... HUGE performance hit. See "frmGameWindow_Paint" for more reasons.
+            this.Invalidate();
         }
 
         private void frmGameWindow_VisibleChanged(object sender, EventArgs e)

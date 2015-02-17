@@ -80,7 +80,7 @@ namespace prjFortrex.GameEngine.Network
         public override void MoveEntity(Direction EntityDirection, int amount)
         {
             base.MoveEntity(EntityDirection, amount);
-
+            
             // Send a command to the server that states that we have moved.
         }
 

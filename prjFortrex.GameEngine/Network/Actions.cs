@@ -3,7 +3,7 @@
     /// <summary>
     /// The type of action that is to be performed.
     /// </summary>
-    public enum Action : int
+    public enum Command : int
     {
         /// <summary>
         /// No action.

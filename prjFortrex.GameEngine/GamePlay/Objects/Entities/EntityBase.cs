@@ -12,6 +12,31 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
 
         void MoveEntity(Direction EntityDirection);
         void MoveEntity(Direction EntityDirection, int speed);
+
+        event EventHandler<EntityMovingEventArgs> EntityMoving;
+        event EventHandler<EntityMovedEventArgs> EntityMoved;
+    }
+
+    public class EntityMovingEventArgs : EventArgs
+    {
+        public EntityMovingEventArgs(Point _CurrentLocation, Point _DesiredLocation)
+        {
+            CurrentLocation = _CurrentLocation;
+            DesiredLocation = _DesiredLocation;
+        }
+
+        public Point CurrentLocation { get; private set; }
+        public Point DesiredLocation { get; private set; }
+    }
+
+    public class EntityMovedEventArgs : EventArgs
+    {
+        public EntityMovedEventArgs(Point _NewLocation)
+        {
+            NewLocation = _NewLocation;
+        }
+
+        public Point NewLocation { get; private set; }
     }
 
     public abstract class EntityBase : IMobileEntity, IDisposable
@@ -21,8 +46,6 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
         public Point CurrentPosition { get; set; }
 
         public Rectangle EntitySize;
-
-
 
         public virtual void MoveEntity(Direction EntityDirection)
         {
@@ -51,11 +74,15 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
                     return;
             }
 
+            OnEntityMoving(new EntityMovingEventArgs(CurrentPosition, NextPosition));
+
             CurrentPosition = NextPosition;
             EntitySize.X = CurrentPosition.X;
             EntitySize.Y = CurrentPosition.Y;
 
-            // The command to move is sent to the server by the class inheriting this base entity class.
+            OnEntityMoved(new EntityMovedEventArgs(CurrentPosition));
+
+            // The command to move is sent to the server by the class inheriting this base entity class?
         }
 
         #endregion
@@ -84,15 +111,13 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
         protected EntityBase()
         {
             EntitySize = new Rectangle(0, 0, 50, 50);
-            EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
+            EntityPicture = Properties.Resources.placeHolder;
         }
 
         protected EntityBase(Rectangle size)
         {
             EntitySize = size;
-            EntityPicture = Image.FromFile("C:\\Users\\jyanke\\Desktop\\KsmaBg1xIs3JuKuee6QzbJpxr2TLzFfkG7oWYLoZsD7bh2cOTEMYWR7t1H7QMXNzuFN0tw=w1246-h833.jpg");
-
-
+            EntityPicture = Properties.Resources.placeHolder;
         }
 
         #endregion
@@ -103,9 +128,32 @@ namespace prjFortrex.GameEngine.GamePlay.Objects.Entities
 
 
         public int CurrencyCount { get; set; }
-        
+
 
         public List<ItemBase> inventoryList = new List<ItemBase>();
+
+        #endregion
+
+        #region Events
+
+        public event EventHandler<EntityMovingEventArgs> EntityMoving;
+        public event EventHandler<EntityMovedEventArgs> EntityMoved;
+
+        protected virtual void OnEntityMoving(EntityMovingEventArgs e)
+        {
+            if (EntityMoving != null)
+            {
+                EntityMoving(this, e);
+            }
+        }
+
+        protected virtual void OnEntityMoved(EntityMovedEventArgs e)
+        {
+            if (EntityMoved != null)
+            {
+                EntityMoved(this, e);
+            }
+        }
 
         #endregion
     }
