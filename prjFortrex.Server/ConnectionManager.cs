@@ -11,6 +11,6 @@ namespace prjFortrex.Server
 {
     static class ConnectionManager
     {
-        
+
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using prjFortrex.GameEngine.Network;
 using System.Net;
 using System.Net.Sockets;
@@ -11,10 +8,16 @@ namespace prjFortrex.Server
 {
     class Program
     {
+        #region Fields
+
         private static List<EntityConnection> EntityConnections;
         private const int Port = 4321;
 
         private static readonly object locker = new object();
+
+        #endregion
+
+        #region Methods
 
         static void Main(string[] args)
         {
@@ -144,7 +147,7 @@ namespace prjFortrex.Server
                     DisconnectUser(connection);
                 }
             }
-            catch 
+            catch
             {
                 EntityError = true;
             }
@@ -178,6 +181,10 @@ namespace prjFortrex.Server
             }
         }
 
+        #endregion
+
+        #region Properties
+
         private static Socket _serverSocket;
         private static Socket ServerSocket
         {
@@ -193,5 +200,7 @@ namespace prjFortrex.Server
                 _serverSocket = value;
             }
         }
+
+        #endregion
     }
 }

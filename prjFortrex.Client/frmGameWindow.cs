@@ -8,19 +8,30 @@ namespace prjFortrex.Client
 {
     public partial class frmGameWindow : Form
     {
+        #region Fields
+
         PlayerConnection player = new PlayerConnection();
+
+        #endregion
+
+        #region Constructors
 
         public frmGameWindow()
         {
             InitializeComponent();
 
             this.BackColor = Color.LightGray;
+            // Set to double-buffer to stop flickering of the screen.
             this.DoubleBuffered = true;
 
             this.VisibleChanged += frmGameWindow_VisibleChanged;
             this.KeyDown += frmGameWindow_KeyDown;
             this.Paint += frmGameWindow_Paint;
         }
+
+        #endregion
+
+        #region Events
 
         void frmGameWindow_Paint(object sender, PaintEventArgs e)
         {
@@ -63,5 +74,7 @@ namespace prjFortrex.Client
         {
             this.WindowState = FormWindowState.Maximized;
         }
+
+        #endregion
     }
 }

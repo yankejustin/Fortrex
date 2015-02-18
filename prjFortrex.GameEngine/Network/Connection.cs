@@ -18,7 +18,7 @@ namespace prjFortrex.GameEngine.Network
         /// The buffer that stores the information that is sent or received from interaction with the server.
         /// </summary>
         byte[] Buffer { get; set; }
-        
+
     }
 
     /// <summary>
@@ -41,7 +41,8 @@ namespace prjFortrex.GameEngine.Network
 
         #region Constructors
 
-        public EntityConnection() : base()
+        public EntityConnection()
+            : base()
         { }
 
         #endregion
@@ -68,7 +69,8 @@ namespace prjFortrex.GameEngine.Network
 
         #region Constructors
 
-        public PlayerConnection() : base()
+        public PlayerConnection()
+            : base()
         { }
 
         #endregion
@@ -80,7 +82,7 @@ namespace prjFortrex.GameEngine.Network
         public override void MoveEntity(Direction EntityDirection, int amount)
         {
             base.MoveEntity(EntityDirection, amount);
-            
+
             // Send a command to the server that states that we have moved.
         }
 
