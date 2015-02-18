@@ -33,7 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,6 +61,18 @@
     <Compile Include="frmTitleScreen.Designer.cs">
       <DependentUpon>frmTitleScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\CascadingInventoryBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\CascadingInventoryBar.Designer.cs">
+      <DependentUpon>CascadingInventoryBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\InventoryItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\InventoryItem.Designer.cs">
+      <DependentUpon>InventoryItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGameWindow.resx">
@@ -63,6 +80,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTitleScreen.resx">
       <DependentUpon>frmTitleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CascadingInventoryBar.resx">
+      <DependentUpon>CascadingInventoryBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InventoryItem.resx">
+      <DependentUpon>InventoryItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
